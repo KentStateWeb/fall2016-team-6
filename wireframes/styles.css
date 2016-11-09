@@ -9,6 +9,9 @@ div, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
+header{
+  display:block;
+}
 .intro{
   text-align:center;
 }
@@ -25,5 +28,12 @@ ul {
   list-style: none;
 }
 .nav{
-  text-align:right;
+  text-align:center;
+}
+.teamintro{
+  text-align:center;
+}
+img.resize{
+   max-width:50%;
+   max-height:50%;
 }
