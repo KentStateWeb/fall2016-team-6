@@ -9,3 +9,21 @@ div, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
+.intro{
+  text-align:center;
+}
+.about{
+  display:block;
+  text-align:center;
+}
+h2.about {
+  display:block;
+  font-size: 150%
+}
+ul {
+  text-align:center;
+  list-style: none;
+}
+.nav{
+  text-align:right;
+}
