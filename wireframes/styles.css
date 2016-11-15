@@ -112,3 +112,26 @@ footer ul{
 .ourteamheader{
   width:100%;
 }
+
+@media screen and (min-width: 750px) {
+.secondarynav ul{
+	display:flex;
+	list-style:none;
+	text-align:center;
+	color:white;
+	margin:.25em;
+}
+
+	.secondarynav ul {
+        display:flex;
+				justify-content:space-between;
+        align-items: center;
+    }
+  }
+
+  .secondarynav li {
+    padding:.25em;
+    font-family:"Cutive";
+    align-items:center;
+
+  }
