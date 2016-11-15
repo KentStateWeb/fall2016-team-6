@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive|Roboto');
+
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 div, section, main, aside, header, footer {
@@ -11,6 +13,7 @@ div, section, main, aside, header, footer {
 }
 header{
   display:block;
+  font-family:"Cutive",serif;
 }
 .intro{
   text-align:center;
@@ -22,6 +25,10 @@ header{
 h2.about {
   display:block;
   font-size: 150%
+  font-family:"Cutive";
+}
+h2{
+  font-family:"Cutive";
 }
 ul {
   text-align:center;
@@ -29,11 +36,74 @@ ul {
 }
 .nav{
   text-align:center;
+  background-color:rgb(241,241,241);
+  padding:1em;
 }
+a{
+  text-decoration:none;
+  color:rgb(34,183,149);
+}
+.nav li{
+  padding:.5em;
+  font-family:"Cutive";
+}
+@media screen and (min-width: 750px) {
+.nav ul{
+	display:flex;
+	list-style:none;
+	text-align:center;
+	color:white;
+	margin:.25em;
+}
+
+	.nav ul {
+        display:flex;
+				justify-content:space-between;
+        align-items: center;
+    }
+  }
+
+footer{
+  background-color:rgb(241,241,241);
+  font-family: "Cutive";
+  font-size:60%;
+  padding:.5em;
+  color:rgb(34,183,149)
+}
+footer li{
+  padding:.5em;
+}
+@media screen and (min-width: 750px) {
+footer ul{
+	display:flex;
+	list-style:none;
+	text-align:center;
+  align-items: center;
+	margin:.25em;
+}
+
+	footer ul {
+        display:flex;
+				justify-content:space-between;
+        align-items: center;
+    }
+  }
 .teamintro{
   text-align:center;
 }
-img.resize{
-   max-width:50%;
-   max-height:50%;
+.headerimage{
+  width:100%;
+}
+.logo{
+ width: 25%;
+}
+
+.kaleigh{
+  size:50%;
+}
+.programheader{
+  width:100%;
+}
+.ourteamheader{
+  width:100%;
 }
