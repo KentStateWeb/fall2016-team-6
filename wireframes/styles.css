@@ -15,6 +15,7 @@ h1{
   font-size:150%;
   text-align:center;
   font-family:"Cutive";
+  color:rgb(34,183,149);
 }
 header{
   display:block;
@@ -34,6 +35,14 @@ h2.about {
 }
 h2{
   font-family:"Cutive";
+  color:rgb(34,183,149);
+}
+h3{
+  color:rgb(34,183,149);
+  font-family:"Cutive";
+}
+h4{
+  color:rgb(77,77,77)
 }
 ul {
   text-align:center;
@@ -67,7 +76,9 @@ a{
         align-items: center;
     }
   }
-
+p{
+  color:rgb(77,77,77);
+}
 footer{
   background-color:rgb(241,241,241);
   font-family: "Cutive";
@@ -133,5 +144,6 @@ footer ul{
     padding:.25em;
     font-family:"Cutive";
     align-items:center;
+    font-size:75%;
 
   }
