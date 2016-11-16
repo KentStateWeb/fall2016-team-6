@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive|Roboto');
+
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+h1{
+  font-size:150%;
+  text-align:center;
+  font-family:"Cutive";
+  color:rgb(34,183,149);
+}
+header{
+  display:block;
+  font-family:"Cutive",serif;
+}
+
+.intro{
+  text-align:center;
+  font-style: oblique;
+  display:flex;
+}
+.about{
+  display:block;
+  text-align:left;
+  position:relative;
+}
+h2.about {
+  display:block;
+  font-size: 150%
+  font-family:"Cutive";
+}
+
+h2{
+  font-family:"Cutive";
+  color:rgb(34,183,149);
+}
+h3{
+  color:rgb(34,183,149);
+  font-family:"Cutive";
+}
+h4{
+  color:rgb(77,77,77)
+}
+ul {
+  text-align:center;
+  list-style: none;
+}
+.nav{
+  text-align:center;
+  background-color:rgb(241,241,241);
+  padding:1em;
+}
+a{
+  text-decoration:none;
+  color:rgb(34,183,149);
+}
+.nav li{
+  padding:.5em;
+  font-family:"Cutive";
+}
+@media screen and (min-width: 800px) {
+.nav ul{
+	display:flex;
+	list-style:none;
+	text-align:center;
+	color:white;
+	margin:.25em;
+}
+
+	.nav ul {
+        display:flex;
+				justify-content:space-between;
+        align-items: center;
+    }
+  }
+p{
+  color:rgb(77,77,77);
+}
+footer{
+  background-color:rgb(241,241,241);
+  font-family: "Cutive";
+  font-size:60%;
+  padding:.5em;
+  color:rgb(34,183,149)
+}
+footer li{
+  padding:.5em;
+}
+@media screen and (min-width: 800px) {
+footer ul{
+	display:flex;
+	list-style:none;
+	text-align:center;
+  align-items: center;
+	margin:.25em;
+}
+
+	footer ul {
+        display:flex;
+				justify-content:space-between;
+        align-items: center;
+    }
+  }
+.teamintro{
+  text-align:center;
+}
+.headerimage{
+  width:100%;
+}
+.logo{
+ width: 20%;
+ float:left;
+ position: relative;
+}
+
+.kaleigh{
+  size:50%;
+}
+.programheader{
+  width:100%;
+}
+.ourteamheader{
+  width:100%;
+}
+
+@media screen and (min-width: 800px) {
+.secondarynav ul{
+	display:flex;
+	list-style:none;
+	text-align:center;
+	color:white;
+	margin:.25em;
+}
+
+	.secondarynav ul {
+        display:flex;
+				justify-content:space-between;
+        align-items: center;
+    }
+  }
+
+  .secondarynav li {
+    padding:.25em;
+    font-family:"Cutive";
+    align-items:center;
+    font-size:75%;
+
+  }
+  .button a{
+    text-align:center;
+    background-color:rgb(34,183,149);
+    padding:1em;
+    color:white;
+    font-family:"Cutive";
+  }
