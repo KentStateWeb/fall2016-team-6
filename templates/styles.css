@@ -23,15 +23,22 @@ header{
 }
 
 .intro{
-  text-align:center;
+  text-align:left;
   font-style: oblique;
   display:flex;
 }
 .about{
-  display:block;
+  display:flex;
   text-align:left;
   position:relative;
 }
+.third{
+  min-width: 200px;
+  width:30%;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
 h2.about {
   display:block;
   font-size: 150%
