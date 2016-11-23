@@ -20,6 +20,11 @@ header{
   display:block;
   font-family:"Cutive",serif;
 }
+@media screen and (max-width:800px){
+  header{
+    font-size: 75%;
+  }
+}
 
 .intro{
   text-align:left;
