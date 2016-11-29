@@ -110,7 +110,11 @@ a{
     }
   }
 p{
-  color:rgb(77,77,77);
+  color:rgb(77,77,77)
+  display:block;
+  margin:auto;
+  text-align:left;
+  width:70%;
 }
 footer{
   background-color:rgb(241,241,241);
@@ -184,13 +188,30 @@ footer ul{
 
   }
   .button a{
+    display:block;
+    margin:auto;
+    width: 30%;
+    line-height: 1.5em;
+    border-radius: 10px;
     background-color:rgb(34,183,149);
     padding:1em;
+    text-align: center;
     color:white;
-    font-family:"Cutive";
-  }
+    font-family:"Cutive"
+    }
 
+ .teampic>img{
+   display: block;
+   margin:auto;
+}
+
+.teammembers{
+  text-align:center;
+}
 blockquote{
   font-family:"Cutive",serif;
   color:rgb(34,183,149);
+  padding:2em;
+  text-align:center;
+  line-height: 1.5em;
 }
