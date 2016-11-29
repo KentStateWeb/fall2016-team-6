@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive|Roboto');
 
 body {
-  max-width: 1200px;
-  padding: 1em;
+  max-width: 1300px;
+  padding: .5em;
   font-family: "Roboto", sans-serif;
 }
 
@@ -78,6 +78,7 @@ h4{
   color:rgb(77,77,77)
 }
 ul {
+  align-items: center;
   text-align:center;
   list-style: none;
 }
@@ -193,4 +194,7 @@ footer ul{
 blockquote{
   font-family:"Cutive",serif;
   color:rgb(34,183,149);
+}
+.teampic{
+  
 }
