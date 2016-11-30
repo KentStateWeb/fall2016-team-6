@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive|Roboto');
 
 body {
-  max-width: 1300px;
+  max-width: 2000px;
   padding: .5em;
   font-family: "Roboto", sans-serif;
 }
@@ -196,5 +196,5 @@ blockquote{
   color:rgb(34,183,149);
 }
 .teampic{
-  
+
 }
