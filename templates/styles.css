@@ -115,6 +115,8 @@ p{
   display:block;
   margin:auto;
   text-align:left;
+}
+p.teamdescription{
   width:70%;
 }
 footer{
@@ -215,6 +217,7 @@ blockquote{
   padding:2em;
   text-align:center;
   line-height: 1.5em;
+
 }
 .teampic{
 
