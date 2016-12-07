@@ -73,6 +73,8 @@ h2{
 h3{
   color:rgb(34,183,149);
   font-family:"Cutive";
+  position: relative;
+  margin-left:20%;
 }
 h4{
   color:rgb(77,77,77)
@@ -152,8 +154,7 @@ footer ul{
 }
 .logo{
  width: 20%;
- float:left;
- position: relative;
+ position: absolute;
 }
 
 .kaleigh{
