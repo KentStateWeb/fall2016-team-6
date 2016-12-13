@@ -62,9 +62,11 @@ h2.about {
 }
 
 h2{
+  padding-top: 2em;
   font-family:"Cutive";
   color:rgb(34,183,149);
 }
+
 h3{
   color:rgb(34,183,149);
   font-family:"Cutive";
@@ -182,8 +184,14 @@ footer ul{
     background-color:rgb(34,183,149);
     padding:1em;
     color:white;
+    border-radius: 30px;
     font-family:"Cutive";
+    transition: all 0.5s ease;
   }
+
+  a:hover{
+    background-color:#90D8CB;
+    }
 
 blockquote{
   font-family:"Cutive",serif;
