@@ -2,7 +2,7 @@
 
 body {
   max-width: 2000px;
-  padding: .5em;
+
   font-family: "Roboto", sans-serif;
 }
 
@@ -100,6 +100,7 @@ a{
 .nav li{
   padding:.5em;
   font-family:"Cutive";
+  font-size: 75%;
 }
 @media screen and (min-width: 800px) {
 .nav ul{
@@ -108,6 +109,7 @@ a{
 	text-align:center;
 	color:white;
 	margin:.25em;
+  margin-left: 5%;
 }
 
 	.nav ul {
@@ -157,8 +159,12 @@ footer ul{
   width:100%;
 }
 .logo{
- width: 20%;
+ width: 15%;
  position: absolute;
+}
+
+.nav li{
+  margin-left: 11%;
 }
 
 .kaleigh{
